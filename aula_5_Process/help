@@ -1,0 +1,13 @@
+const help = [
+	'---Help---',
+	'a) pid',
+	'b) title',
+	'c) arch',
+	'd) plataform'
+]
+module.exports.showOptions = x =>
+	help
+	.forEach(option =>
+		console.log(option)
+	)
+ 
